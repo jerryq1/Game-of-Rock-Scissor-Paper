@@ -1,0 +1,517 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C4A5A72B1D2A67B900CEC375 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A5A72A1D2A67B900CEC375 /* AppDelegate.swift */; };
+		C4A5A72D1D2A67B900CEC375 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A5A72C1D2A67B900CEC375 /* ViewController.swift */; };
+		C4A5A7301D2A67B900CEC375 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4A5A72E1D2A67B900CEC375 /* Main.storyboard */; };
+		C4A5A7321D2A67B900CEC375 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4A5A7311D2A67B900CEC375 /* Assets.xcassets */; };
+		C4A5A7351D2A67B900CEC375 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4A5A7331D2A67B900CEC375 /* LaunchScreen.storyboard */; };
+		C4A5A7401D2A67B900CEC375 /* ________Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A5A73F1D2A67B900CEC375 /* ________Tests.swift */; };
+		C4A5A74B1D2A67B900CEC375 /* ________UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A5A74A1D2A67B900CEC375 /* ________UITests.swift */; };
+		C4A5A7591D2A67C800CEC375 /* 123.png in Resources */ = {isa = PBXBuildFile; fileRef = C4A5A7581D2A67C800CEC375 /* 123.png */; };
+		C4A5A75B1D2A67E100CEC375 /* 怪兽.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = C4A5A75A1D2A67E100CEC375 /* 怪兽.jpeg */; };
+		C4A5A75D1D2A680F00CEC375 /* Rsp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A5A75C1D2A680F00CEC375 /* Rsp.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C4A5A73C1D2A67B900CEC375 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C4A5A71F1D2A67B900CEC375 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C4A5A7261D2A67B900CEC375;
+			remoteInfo = "石头剪刀布小游戏";
+		};
+		C4A5A7471D2A67B900CEC375 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C4A5A71F1D2A67B900CEC375 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C4A5A7261D2A67B900CEC375;
+			remoteInfo = "石头剪刀布小游戏";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C4A5A7271D2A67B900CEC375 /* 石头剪刀布小游戏.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "石头剪刀布小游戏.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4A5A72A1D2A67B900CEC375 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C4A5A72C1D2A67B900CEC375 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C4A5A72F1D2A67B900CEC375 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C4A5A7311D2A67B900CEC375 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C4A5A7341D2A67B900CEC375 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C4A5A7361D2A67B900CEC375 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4A5A73B1D2A67B900CEC375 /* 石头剪刀布小游戏Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "石头剪刀布小游戏Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4A5A73F1D2A67B900CEC375 /* ________Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "________Tests.swift"; sourceTree = "<group>"; };
+		C4A5A7411D2A67B900CEC375 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4A5A7461D2A67B900CEC375 /* 石头剪刀布小游戏UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "石头剪刀布小游戏UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4A5A74A1D2A67B900CEC375 /* ________UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "________UITests.swift"; sourceTree = "<group>"; };
+		C4A5A74C1D2A67B900CEC375 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4A5A7581D2A67C800CEC375 /* 123.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 123.png; sourceTree = "<group>"; };
+		C4A5A75A1D2A67E100CEC375 /* 怪兽.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "怪兽.jpeg"; sourceTree = "<group>"; };
+		C4A5A75C1D2A680F00CEC375 /* Rsp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Rsp.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C4A5A7241D2A67B900CEC375 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4A5A7381D2A67B900CEC375 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4A5A7431D2A67B900CEC375 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C4A5A71E1D2A67B900CEC375 = {
+			isa = PBXGroup;
+			children = (
+				C4A5A7291D2A67B900CEC375 /* 石头剪刀布小游戏 */,
+				C4A5A73E1D2A67B900CEC375 /* 石头剪刀布小游戏Tests */,
+				C4A5A7491D2A67B900CEC375 /* 石头剪刀布小游戏UITests */,
+				C4A5A7281D2A67B900CEC375 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C4A5A7281D2A67B900CEC375 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C4A5A7271D2A67B900CEC375 /* 石头剪刀布小游戏.app */,
+				C4A5A73B1D2A67B900CEC375 /* 石头剪刀布小游戏Tests.xctest */,
+				C4A5A7461D2A67B900CEC375 /* 石头剪刀布小游戏UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C4A5A7291D2A67B900CEC375 /* 石头剪刀布小游戏 */ = {
+			isa = PBXGroup;
+			children = (
+				C4A5A72A1D2A67B900CEC375 /* AppDelegate.swift */,
+				C4A5A72C1D2A67B900CEC375 /* ViewController.swift */,
+				C4A5A72E1D2A67B900CEC375 /* Main.storyboard */,
+				C4A5A7581D2A67C800CEC375 /* 123.png */,
+				C4A5A7311D2A67B900CEC375 /* Assets.xcassets */,
+				C4A5A75A1D2A67E100CEC375 /* 怪兽.jpeg */,
+				C4A5A75C1D2A680F00CEC375 /* Rsp.swift */,
+				C4A5A7331D2A67B900CEC375 /* LaunchScreen.storyboard */,
+				C4A5A7361D2A67B900CEC375 /* Info.plist */,
+			);
+			path = "石头剪刀布小游戏";
+			sourceTree = "<group>";
+		};
+		C4A5A73E1D2A67B900CEC375 /* 石头剪刀布小游戏Tests */ = {
+			isa = PBXGroup;
+			children = (
+				C4A5A73F1D2A67B900CEC375 /* ________Tests.swift */,
+				C4A5A7411D2A67B900CEC375 /* Info.plist */,
+			);
+			path = "石头剪刀布小游戏Tests";
+			sourceTree = "<group>";
+		};
+		C4A5A7491D2A67B900CEC375 /* 石头剪刀布小游戏UITests */ = {
+			isa = PBXGroup;
+			children = (
+				C4A5A74A1D2A67B900CEC375 /* ________UITests.swift */,
+				C4A5A74C1D2A67B900CEC375 /* Info.plist */,
+			);
+			path = "石头剪刀布小游戏UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C4A5A7261D2A67B900CEC375 /* 石头剪刀布小游戏 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4A5A74F1D2A67B900CEC375 /* Build configuration list for PBXNativeTarget "石头剪刀布小游戏" */;
+			buildPhases = (
+				C4A5A7231D2A67B900CEC375 /* Sources */,
+				C4A5A7241D2A67B900CEC375 /* Frameworks */,
+				C4A5A7251D2A67B900CEC375 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "石头剪刀布小游戏";
+			productName = "石头剪刀布小游戏";
+			productReference = C4A5A7271D2A67B900CEC375 /* 石头剪刀布小游戏.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C4A5A73A1D2A67B900CEC375 /* 石头剪刀布小游戏Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4A5A7521D2A67B900CEC375 /* Build configuration list for PBXNativeTarget "石头剪刀布小游戏Tests" */;
+			buildPhases = (
+				C4A5A7371D2A67B900CEC375 /* Sources */,
+				C4A5A7381D2A67B900CEC375 /* Frameworks */,
+				C4A5A7391D2A67B900CEC375 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C4A5A73D1D2A67B900CEC375 /* PBXTargetDependency */,
+			);
+			name = "石头剪刀布小游戏Tests";
+			productName = "石头剪刀布小游戏Tests";
+			productReference = C4A5A73B1D2A67B900CEC375 /* 石头剪刀布小游戏Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C4A5A7451D2A67B900CEC375 /* 石头剪刀布小游戏UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4A5A7551D2A67B900CEC375 /* Build configuration list for PBXNativeTarget "石头剪刀布小游戏UITests" */;
+			buildPhases = (
+				C4A5A7421D2A67B900CEC375 /* Sources */,
+				C4A5A7431D2A67B900CEC375 /* Frameworks */,
+				C4A5A7441D2A67B900CEC375 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C4A5A7481D2A67B900CEC375 /* PBXTargetDependency */,
+			);
+			name = "石头剪刀布小游戏UITests";
+			productName = "石头剪刀布小游戏UITests";
+			productReference = C4A5A7461D2A67B900CEC375 /* 石头剪刀布小游戏UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C4A5A71F1D2A67B900CEC375 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = jerry;
+				TargetAttributes = {
+					C4A5A7261D2A67B900CEC375 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					C4A5A73A1D2A67B900CEC375 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = C4A5A7261D2A67B900CEC375;
+					};
+					C4A5A7451D2A67B900CEC375 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = C4A5A7261D2A67B900CEC375;
+					};
+				};
+			};
+			buildConfigurationList = C4A5A7221D2A67B900CEC375 /* Build configuration list for PBXProject "石头剪刀布小游戏" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C4A5A71E1D2A67B900CEC375;
+			productRefGroup = C4A5A7281D2A67B900CEC375 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C4A5A7261D2A67B900CEC375 /* 石头剪刀布小游戏 */,
+				C4A5A73A1D2A67B900CEC375 /* 石头剪刀布小游戏Tests */,
+				C4A5A7451D2A67B900CEC375 /* 石头剪刀布小游戏UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C4A5A7251D2A67B900CEC375 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4A5A75B1D2A67E100CEC375 /* 怪兽.jpeg in Resources */,
+				C4A5A7591D2A67C800CEC375 /* 123.png in Resources */,
+				C4A5A7351D2A67B900CEC375 /* LaunchScreen.storyboard in Resources */,
+				C4A5A7321D2A67B900CEC375 /* Assets.xcassets in Resources */,
+				C4A5A7301D2A67B900CEC375 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4A5A7391D2A67B900CEC375 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4A5A7441D2A67B900CEC375 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C4A5A7231D2A67B900CEC375 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4A5A72D1D2A67B900CEC375 /* ViewController.swift in Sources */,
+				C4A5A75D1D2A680F00CEC375 /* Rsp.swift in Sources */,
+				C4A5A72B1D2A67B900CEC375 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4A5A7371D2A67B900CEC375 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4A5A7401D2A67B900CEC375 /* ________Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4A5A7421D2A67B900CEC375 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4A5A74B1D2A67B900CEC375 /* ________UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C4A5A73D1D2A67B900CEC375 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C4A5A7261D2A67B900CEC375 /* 石头剪刀布小游戏 */;
+			targetProxy = C4A5A73C1D2A67B900CEC375 /* PBXContainerItemProxy */;
+		};
+		C4A5A7481D2A67B900CEC375 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C4A5A7261D2A67B900CEC375 /* 石头剪刀布小游戏 */;
+			targetProxy = C4A5A7471D2A67B900CEC375 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C4A5A72E1D2A67B900CEC375 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C4A5A72F1D2A67B900CEC375 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C4A5A7331D2A67B900CEC375 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C4A5A7341D2A67B900CEC375 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C4A5A74D1D2A67B900CEC375 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C4A5A74E1D2A67B900CEC375 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C4A5A7501D2A67B900CEC375 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "石头剪刀布小游戏/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jerry.xu.--------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C4A5A7511D2A67B900CEC375 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "石头剪刀布小游戏/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jerry.xu.--------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C4A5A7531D2A67B900CEC375 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "石头剪刀布小游戏Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jerry.xu.--------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/石头剪刀布小游戏.app/石头剪刀布小游戏";
+			};
+			name = Debug;
+		};
+		C4A5A7541D2A67B900CEC375 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "石头剪刀布小游戏Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jerry.xu.--------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/石头剪刀布小游戏.app/石头剪刀布小游戏";
+			};
+			name = Release;
+		};
+		C4A5A7561D2A67B900CEC375 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "石头剪刀布小游戏UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jerry.xu.--------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "石头剪刀布小游戏";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		C4A5A7571D2A67B900CEC375 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "石头剪刀布小游戏UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jerry.xu.--------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "石头剪刀布小游戏";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C4A5A7221D2A67B900CEC375 /* Build configuration list for PBXProject "石头剪刀布小游戏" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4A5A74D1D2A67B900CEC375 /* Debug */,
+				C4A5A74E1D2A67B900CEC375 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4A5A74F1D2A67B900CEC375 /* Build configuration list for PBXNativeTarget "石头剪刀布小游戏" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4A5A7501D2A67B900CEC375 /* Debug */,
+				C4A5A7511D2A67B900CEC375 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C4A5A7521D2A67B900CEC375 /* Build configuration list for PBXNativeTarget "石头剪刀布小游戏Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4A5A7531D2A67B900CEC375 /* Debug */,
+				C4A5A7541D2A67B900CEC375 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C4A5A7551D2A67B900CEC375 /* Build configuration list for PBXNativeTarget "石头剪刀布小游戏UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4A5A7561D2A67B900CEC375 /* Debug */,
+				C4A5A7571D2A67B900CEC375 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C4A5A71F1D2A67B900CEC375 /* Project object */;
+}
